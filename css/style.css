@@ -1,4 +1,6 @@
-*{
+html{
+    scroll-behavior:smooth;
+}
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -143,7 +145,7 @@ nav ul{
 
 .card:hover{
     transform:translateY(-12px);
-    box-shadow:0 20px 40px rgba(0,0,0,.12);
+    box-shadow:0 25px 50px rgba(0,0,0,.15);
 }
 
 .icon{
@@ -188,8 +190,8 @@ nav ul{
 }
 
 .card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 20px 40px rgba(0,0,0,.12);
+    transform:translateY(-12px);
+    box-shadow:0 25px 50px rgba(0,0,0,.15);
 }
 
 .icon{
@@ -234,8 +236,8 @@ nav ul{
 }
 
 .product-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 20px 40px rgba(0,0,0,.12);
+    transform:translateY(-12px);
+    box-shadow:0 25px 50px rgba(0,0,0,.15);
 }
 
 .product-image{
