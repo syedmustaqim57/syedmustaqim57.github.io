@@ -61,36 +61,36 @@ nav ul li a:hover{
     max-width:800px;
 }
 
-.hero h1{
-    font-family:'Poppins',sans-serif;
-    font-size:68px;
+.hero-text h1{
+    font-size:4rem;
+    font-weight:700;
     line-height:1.1;
-    color:#2E2E2E;
-    margin-bottom:25px;
+    color:#2F2A26;
+    margin-bottom:20px;
 }
 
-.hero p{
-    font-size:22px;
+.hero-text p{
+    font-size:1.15rem;
     color:#666;
     line-height:1.8;
-    margin-bottom:40px;
+    margin-bottom:30px;
 }
-
 .btn{
     display:inline-block;
-    padding:18px 38px;
-    background:#7A5C3E;
+    padding:14px 34px;
+    background:#3E2F2B;
     color:white;
-    text-decoration:none;
     border-radius:12px;
+    text-decoration:none;
     font-weight:600;
     transition:.3s;
 }
 
 .btn:hover{
-    background:#5F4630;
+    background:#5C4438;
     transform:translateY(-3px);
 }
+
 
 @media(max-width:768px){
 
