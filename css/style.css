@@ -308,3 +308,42 @@ nav ul{
     border-radius:18px;
     margin-bottom:18px;
 }
+/* Footer */
+
+.footer{
+    background:#3E2F2B;
+    color:white;
+    padding:60px 8%;
+    text-align:center;
+    margin-top:80px;
+}
+
+.footer h2{
+    font-family:'Poppins',sans-serif;
+    margin-bottom:10px;
+}
+
+.footer p{
+    color:#ddd;
+}
+
+.footer-links{
+    margin:30px 0;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#D6B48A;
+}
+
+.copyright{
+    margin-top:20px;
+    font-size:14px;
+    color:#bbb;
+}
