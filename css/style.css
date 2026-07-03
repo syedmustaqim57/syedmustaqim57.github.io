@@ -375,7 +375,13 @@ nav ul{
     box-shadow:0 10px 20px rgba(0,0,0,.08);
     transition:.3s;
 }
+.why-card h3{
+    color:#2E2E2E;
+}
 
+.why-card p{
+    color:#555;
+}
 .why-card:hover{
     transform:translateY(-8px);
 }
