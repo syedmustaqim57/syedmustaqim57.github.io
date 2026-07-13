@@ -1,181 +1,511 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Aesthetic Workspaces | Design. Focus. Create.</title>
+    <meta name="description"
+        content="Discover aesthetic workspaces, desk accessories, lighting and productivity inspiration.">
 
-<link rel="stylesheet" href="css/style.css">
+    <title>Aesthetic Workspaces | Design. Focus. Create.</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-<nav>
+    <!-- Navigation -->
 
-<div class="logo">
-Aesthetic Workspaces
-</div>
+    <nav class="navbar">
 
-<ul>
+        <a href="index.html" class="brand">
 
-<li><a href="index.html">Home</a></li>
+            <span class="brand-mark">
+                <span class="brand-a">A</span>
+                <span class="brand-w">W</span>
+            </span>
 
-<li><a href="about.html">About</a></li>
+            <span class="brand-name">
+                Aesthetic Workspaces
+            </span>
 
-<li><a href="#categories">Categories</a></li>
+        </a>
 
-<li><a href="#featured-products">Products</a></li>
+        <button class="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
 
-<li><a href="contact.html">Contact</a></li>
+            <span></span>
+            <span></span>
+            <span></span>
 
-</ul>
+        </button>
 
-</nav>
+        <ul class="nav-links">
 
-<section class="hero">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
 
-    <div class="hero-text">
-        <h1>Design. Focus. Create.</h1>
+            <li>
+                <a href="about.html">About</a>
+            </li>
 
-        <p>
-            Discover beautiful workspaces, premium desk accessories and productivity inspiration.
-        </p>
+            <li>
+                <a href="#categories">Categories</a>
+            </li>
 
-        <a href="#categories" class="btn">Explore Workspaces</a>
-    </div>
+            <li>
+                <a href="#featured-products">Products</a>
+            </li>
 
-    <div class="hero-image">
-        <img src="images/office.jpeg" alt="Modern Office">
-    </div>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
 
-</section>
-<section class="categories" id="categories">
+        </ul>
 
-<h2>Explore Categories</h2>
+    </nav>
 
-<div class="category-grid">
 
-<div class="card">
-<img src="images/office.jpeg" class="category-image">
-<h3>Desk Setups</h3>
-<p>Minimal, modern and productivity-focused desk inspirations.</p>
-</div>
+    <main>
 
-<div class="card">
-<img src="images/livingroom.jpeg" class="category-image">
-<h3>Accessories</h3>
-<p>Keyboards, mice, monitor arms and premium desk gear.</p>
-</div>
+        <!-- Hero -->
 
-<div class="card">
-<img src="images/Bookshelf.jpg" class="category-image">
-<h3>Lighting</h3>
-<p>Create the perfect atmosphere with aesthetic lighting ideas.</p>
-</div>
+        <section class="hero">
 
-<div class="card">
-<div class="icon">📚</div>
-<h3>Productivity</h3>
-<p>Apps, gadgets and tools to improve your workflow.</p>
-</div>
+            <div class="hero-text">
 
-</div>
+                <span class="eyebrow">
+                    Curated workspace inspiration
+                </span>
 
-</section>
-<section class="featured-products">
+                <h1>
+                    Design.
+                    <br>
+                    Focus.
+                    <br>
+                    Create.
+                </h1>
 
-<h2>Featured Products</h2>
+                <p>
+                    Discover beautiful workspaces, premium desk accessories
+                    and productivity inspiration designed for better focus.
+                </p>
 
-<div class="product-grid">
+                <a href="#categories" class="btn">
+                    Explore Workspaces
+                </a>
 
-<div class="product-card">
-<div class="product-image">🖥️</div>
-<h3>Monitor Arm</h3>
-<p>Premium adjustable monitor arm for clean desk setups.</p>
-<div class="price">₹2,499</div>
-<a href="https://www.amazon.in" class="product-btn" target="_blank">
-View Product
-</a>
-</div>
+            </div>
 
-<div class="product-card">
-<div class="product-image">⌨️</div>
-<h3>Mechanical Keyboard</h3>
-<p>Minimal mechanical keyboard with satisfying typing experience.</p>
-<div class="price">₹3,999</div>
-<a href="https://www.amazon.in" class="product-btn" target="_blank">
-View Product
-</a>
-</div>
+            <div class="hero-image">
 
-<div class="product-card">
-<div class="product-image">💡</div>
-<h3>Desk Lamp</h3>
-<p>Warm LED lighting for productivity and aesthetics.</p>
-<div class="price">₹1,299</div>
-<a href="https://www.amazon.in" class="product-btn" target="_blank">
-View Product
-</a>
-</div>
+                <img
+                    src="images/office.jpeg"
+                    alt="Modern aesthetic office workspace">
 
-</div>
+            </div>
 
-</section>
-<footer class="footer">
+        </section>
 
-    <div class="footer-content">
 
-        <h2>Aesthetic Workspaces</h2>
+        <!-- Categories -->
 
-        <p>Design. Focus. Create.</p>
+        <section class="categories" id="categories">
 
-        <div class="footer-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Affiliate Disclosure</a>
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    Find your style
+                </span>
+
+                <h2>
+                    Explore Categories
+                </h2>
+
+                <p>
+                    Ideas and recommendations to create a workspace
+                    that looks better and works better.
+                </p>
+
+            </div>
+
+            <div class="category-grid">
+
+                <a href="desk-setups.html" class="category-card">
+
+                    <img
+                        src="images/office.jpeg"
+                        class="category-image"
+                        alt="Modern desk setup">
+
+                    <div class="category-content">
+
+                        <h3>
+                            Desk Setups
+                        </h3>
+
+                        <p>
+                            Minimal, modern and productivity-focused desk inspiration.
+                        </p>
+
+                        <span class="card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <a href="accessories.html" class="category-card">
+
+                    <img
+                        src="images/livingroom.jpeg"
+                        class="category-image"
+                        alt="Workspace accessories">
+
+                    <div class="category-content">
+
+                        <h3>
+                            Accessories
+                        </h3>
+
+                        <p>
+                            Keyboards, mice, monitor arms and premium desk gear.
+                        </p>
+
+                        <span class="card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <a href="lighting.html" class="category-card">
+
+                    <img
+                        src="images/Bookshelf.jpg"
+                        class="category-image"
+                        alt="Aesthetic workspace lighting">
+
+                    <div class="category-content">
+
+                        <h3>
+                            Lighting
+                        </h3>
+
+                        <p>
+                            Create the perfect atmosphere with aesthetic lighting ideas.
+                        </p>
+
+                        <span class="card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <a href="productivity.html" class="category-card productivity-card">
+
+                    <div class="productivity-icon">
+                        ✦
+                    </div>
+
+                    <div class="category-content">
+
+                        <h3>
+                            Productivity
+                        </h3>
+
+                        <p>
+                            Apps, gadgets and tools designed to improve your workflow.
+                        </p>
+
+                        <span class="card-link">
+                            Explore →
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Featured Products -->
+
+        <section
+            class="featured-products"
+            id="featured-products">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    Workspace essentials
+                </span>
+
+                <h2>
+                    Featured Products
+                </h2>
+
+                <p>
+                    A preview of carefully selected products for cleaner,
+                    more productive workspaces.
+                </p>
+
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card">
+
+                    <div class="product-icon">
+                        🖥️
+                    </div>
+
+                    <h3>
+                        Monitor Arm
+                    </h3>
+
+                    <p>
+                        An adjustable monitor arm for a cleaner and more flexible desk setup.
+                    </p>
+
+                    <div class="price">
+                        ₹2,499
+                    </div>
+
+                    <a
+                        href="https://www.amazon.in"
+                        class="product-btn"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        View Product
+
+                    </a>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-icon">
+                        ⌨️
+                    </div>
+
+                    <h3>
+                        Mechanical Keyboard
+                    </h3>
+
+                    <p>
+                        A minimal keyboard designed for a satisfying and focused typing experience.
+                    </p>
+
+                    <div class="price">
+                        ₹3,999
+                    </div>
+
+                    <a
+                        href="https://www.amazon.in"
+                        class="product-btn"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        View Product
+
+                    </a>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-icon">
+                        💡
+                    </div>
+
+                    <h3>
+                        Desk Lamp
+                    </h3>
+
+                    <p>
+                        Warm LED lighting designed to improve workspace ambience and focus.
+                    </p>
+
+                    <div class="price">
+                        ₹1,299
+                    </div>
+
+                    <a
+                        href="https://www.amazon.in"
+                        class="product-btn"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        View Product
+
+                    </a>
+
+                </article>
+
+            </div>
+
+            <p class="affiliate-note">
+                Product links may become affiliate links. See our
+                <a href="affiliate.html">Affiliate Disclosure</a>.
+            </p>
+
+        </section>
+
+
+        <!-- Why Us -->
+
+        <section class="why-us">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    Our approach
+                </span>
+
+                <h2>
+                    Why Aesthetic Workspaces?
+                </h2>
+
+            </div>
+
+            <div class="why-grid">
+
+                <article class="why-card">
+
+                    <span class="why-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Curated Products
+                    </h3>
+
+                    <p>
+                        We focus on products that combine aesthetics,
+                        practical design and productivity.
+                    </p>
+
+                </article>
+
+
+                <article class="why-card">
+
+                    <span class="why-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Productivity First
+                    </h3>
+
+                    <p>
+                        Recommendations are selected to help create
+                        cleaner and more focused workspaces.
+                    </p>
+
+                </article>
+
+
+                <article class="why-card">
+
+                    <span class="why-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Workspace Inspiration
+                    </h3>
+
+                    <p>
+                        Discover modern desk setups and ideas to help
+                        shape a workspace you enjoy using.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <a href="index.html" class="footer-brand">
+
+                <span class="brand-mark footer-mark">
+
+                    <span class="brand-a">A</span>
+                    <span class="brand-w">W</span>
+
+                </span>
+
+            </a>
+
+            <h2>
+                Aesthetic Workspaces
+            </h2>
+
+            <p class="footer-tagline">
+                Design. Focus. Create.
+            </p>
+
+            <div class="footer-links">
+
+                <a href="index.html">Home</a>
+
+                <a href="about.html">About</a>
+
+                <a href="contact.html">Contact</a>
+
+                <a href="privacy.html">Privacy Policy</a>
+
+                <a href="affiliate.html">Affiliate Disclosure</a>
+
+            </div>
+
+            <p class="copyright">
+                © 2026 Aesthetic Workspaces. All rights reserved.
+            </p>
+
         </div>
 
-        <p class="copyright">
-            © 2026 Aesthetic Workspaces. All Rights Reserved.
-        </p>
+    </footer>
 
-    </div>
-<section class="why-us">
 
-    <h2>Why Choose Aesthetic Workspaces?</h2>
-
-    <div class="why-grid">
-
-        <div class="why-card">
-            <h3>✨ Curated Products</h3>
-            <p>We carefully select products that combine aesthetics, quality and productivity.</p>
-        </div>
-
-        <div class="why-card">
-            <h3>🎯 Productivity First</h3>
-            <p>Every recommendation is chosen to help you create a cleaner and more focused workspace.</p>
-        </div>
-
-        <div class="why-card">
-            <h3>🏡 Workspace Inspiration</h3>
-            <p>Discover modern desk setups and home office ideas to build your ideal workspace.</p>
-        </div>
-
-    </div>
-
-</section>
-</footer>
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
